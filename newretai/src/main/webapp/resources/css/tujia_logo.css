@@ -1,0 +1,156 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:#999;
+}
+
+a:visited{
+    color:#999;
+}
+
+a:hover{
+    color: #FD8238;
+}
+
+a:active{
+    color:#999;
+}
+#backdrop{
+    position: relative;
+    width: 1970px;
+    height: 900px;
+    margin: auto;
+}
+#nav{
+    position: absolute;
+    width: 1190px;
+    height: 755px;
+    margin-left: 37%;
+    margin-top: -880px;
+
+}
+.nav_top{
+    color: white;
+    width: 1190px;
+    height: 62px;
+    margin: auto;
+}
+.nav_logo{
+    width: 1190px;
+    height: 120px;
+    margin: auto;
+}
+.logo{
+    width: 292px;
+    height: 114px;
+    margin: auto;
+}
+.nav_bottom{
+    width: 680px;
+    height: 364px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin-top: 30px;
+    background-color: black;
+    background: rgba(0,0,0,0.6);
+}
+.nav_bottom_left{
+    position: relative;
+    width: 360px;
+    height: 364px;
+    float: left;
+    border-right:dashed;
+}
+.nav_bottom_right{
+    position: relative;
+    width: 280px;
+    height: 360px;
+    float: left;
+    padding-left: 37px;
+}
+.email{
+    width: 320px;
+    height: 40px;
+    margin-top: 15px;
+}
+.possword{
+    width: 320px;
+    height: 40px;
+    margin-top: 15px;
+}
+.auto{
+    width: 320px;
+    height: 40px;
+    margin-top: 15px;
+}
+.choice{
+    width: 320px;
+    height: 20px;
+    margin-top: 15px;
+}
+.logo_logo{
+    width: 320px;
+    height: 40px;
+    margin-top: 15px;
+}
+.qq{
+    width: 270px;
+    height: 55px;
+}
+.register{
+    width: 270px;
+    height: 12px;
+    margin-top: 20px;
+}
+.sellCity{
+    width: 270px;
+    height: 80px;
+    margin-top: 20px;
+}
+.app{
+    width: 270px;
+    height: 120px;
+    margin-top: 20px;
+}
+.download{
+ position: absolute;
+    margin-bottom: 0;
+    margin-right: 0;
+
+}
+#subscript{
+    width: 100%;
+    height: 157px;
+    margin-top: 15px;
+}
+.subscript_top{
+    width:400px;
+    height: 24px;
+    margin: auto;
+}
+.subscript_bottom{
+    width: 740px;
+    height: 117px;
+    margin: auto;
+    margin-top: 20px;
+}
+.icon{
+    width: 440px;
+    height: 47px;
+    margin: auto;
+    margin-top: 20px;
+}

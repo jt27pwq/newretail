@@ -1,0 +1,577 @@
+
+body {
+    background: rgba(0, 0, 0, 0) url("../img/wm/bg1.jpg") no-repeat scroll 0 0 / 100% auto;
+}
+
+.top-bg, .top-wrap, body, html {
+    width: 100%;
+}
+.page-wrap, body {
+    background-color: #fffff;
+}
+* {
+    margin: 0;
+}
+body {
+    font: 12px/1.4 Microsoft Yahei,Arial,Helvetica,sans-serif;
+}
+*::-moz-placeholder {
+    color: #ccc;
+}
+
+.top-wrap {
+    padding-bottom: 42%;
+}
+
+.jspDrag, .jspTrack, .top-wrap {
+    position: relative;
+}
+
+.top-banner {
+    left: 12%;
+    position: absolute;
+    right: 12%;
+    width: 76%;
+}
+.map, .top-banner, .wrapper {
+    min-width: 980px;
+}
+
+.top-banner .logo {
+    left: 0;
+    position: absolute;
+    top: 16px;
+}
+.fl {
+    float: left;
+}
+
+.top-banner .logo img {
+    width: 163px;
+}
+img {
+    border: 0 none;
+}
+
+.userbar {
+    position: absolute;
+    right: 0;
+    top: 24px;
+}
+.fr {
+    float: right;
+}
+
+.download-btn, .top-disloginbar a, .top-loginbar-inner {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #333;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.login-btn, .register-btn {
+    margin-right: 10px;
+    width: 71px;
+}
+
+
+a {
+    text-decoration: none;
+}
+a, input, textarea {
+    outline: 0 none;
+}
+
+
+.download-btn {
+    width: 118px;
+}
+.download-btn img{
+	margin-right:7px;
+	vertical-align:-3px;
+	width:12px;
+	
+}
+/*图片阴影*/
+.top-bg {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0.91) 0%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+    height: 139px;
+    opacity: 0.55;
+    top: 0;
+}
+.map, .map .top, .top-bg {
+    position: absolute;
+}
+
+
+
+/*地图*/
+
+
+
+.map {
+    bottom: -45px;
+    left: 12%;
+    right: 12%;
+    top: 37%;
+    width: 76%;
+}
+
+
+
+.map .top {
+    left: 0;
+    top: -72px;
+    width: 100%;
+}
+
+
+.guider {
+    margin: 0 auto;
+    width: 880px;
+}
+
+
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+}
+.addr-em-hidden, .clearfix::after, .dialog-address .modify, .shopping-cart .disabled-food a.minus, .shopping-cart .disabled-food a.plus, .shopping-cart .discount-food a.minus, .shopping-cart .discount-food a.plus, .unvisialbe {
+    visibility: hidden;
+}
+
+.address {
+    margin: 0 auto;
+    width: 730px;
+}
+
+.m-shadow {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.current-city {
+    position: relative;
+}
+
+.current-city .city {
+    background-color: #fff;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    display: block;
+    line-height: 60px;
+    overflow: hidden;
+    padding-right: 10px;
+    width: 80px;
+    z-index: 5000px;
+}
+.current-city .city, .dialog-historyaddr .empty {
+    color: #434343;
+    font-size: 16px;
+    text-align: center;
+}
+.current-city .city, .dialog-citylist .field li, .top-loginbar-username {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.triangle-down {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #999 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 4px 5px;
+    position: absolute;
+    right: 15px;
+    top: 27px;
+}
+.icon-list a::after, .triangle-down {
+    content: "";
+}
+
+.current-city .city {
+    line-height: 60px;
+}
+
+.dvd-line {
+    background: #e5e5e5 none repeat scroll 0 0;
+    font-size: 0;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 1px;
+}
+
+
+.address-input .input-container input {
+    border: 0 none;
+    display: block;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    padding: 20px 10px 20px 20px;
+    width: 480px;
+}
+.address-input .input-container a {
+    background-color: #ffd161;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    text-align: center;
+    width: 130px;
+}
+
+
+/*商店入驻*/
+
+.merchant-join {
+    background: rgba(0, 0, 0, 0) url("../img/wm/sd.png") no-repeat scroll 0 0 / 100% auto;
+    height: 148px;
+    margin: 0 auto;
+    padding-left: 130px;
+    width: 358px;
+}
+
+.merchant-join .content {
+    float: left;
+    padding-top: 38px;
+}
+
+.merchant-join .content h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 14px;
+}
+*{
+    margin: 0;
+}
+
+
+.merchant-join .content p {
+    color: #999;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+
+.merchant-join .join-btn {
+    color: #ffa735;
+    float: right;
+    font-size: 16px;
+    margin-top: 53px;
+    width: 120px;
+}
+
+/*foot*/
+
+.map-footer {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 80px;
+}
+
+.map-footer-inner {
+    height: 60px;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.map-footer-entry {
+    color: #666;
+    float: left;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.map-footer-link {
+    color: #666;
+}
+
+.app-download img {
+    margin-right: 3px;
+    vertical-align: -3px;
+}
+
+.map-footer-separator {
+    margin: 0 12px;
+}
+i {
+    font-style: normal;
+}
+
+.map-footer-copyright {
+    color: #8a8a8a;
+    float: right;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.map-footer-copyright a {
+    color: #8a8a8a;
+    position: relative;
+}
+
+.map-footer-weixing:hover .map-footer-weixingpic{
+	display: block;
+}
+
+.map-footer-weixingpic {
+    bottom: 20px;
+    display: none;
+    position: absolute;
+    right: -24px;
+    width: 100px;
+    
+}
+
+.map-footer-weixing{
+	position:relative;
+}
+
+.dialog {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+.map-dialog {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.map-dialog .i-mapdialog-arr {
+    position: absolute;
+    top: -12px;
+}
+
+.i-mapdialog-arr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 6px 5px;
+    font-size: 0;
+    height: 0;
+    width: 0;
+}
+
+.dialog-citylist .map-dialog .content {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+    outline: 0 none;
+    width: 683px;
+}
+
+.map-dialog .content {
+    background-color: #fff;
+    padding: 15px 25px;
+}
+
+.jspContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.jspHorizontalBar, .jspPane, .jspVerticalBar {
+    position: absolute;
+}
+
+
+
+.dialog-citylist .guess {
+    display: block;
+    float: left;
+    margin: 10px 25px 0 0;
+    padding-bottom: 14px;
+}
+
+
+
+.dialog-citylist .guess a, .dialog-citylist .guess span {
+    font-size: 14px;
+    line-height: 28px;
+}
+.fl {
+    float: left;
+}
+
+
+.dialog-citylist .guess a {
+    background-color: #333;
+    color: #fff;
+    height: 28px;
+    margin-left: 16px;
+    padding: 0 14px;
+    text-align: center;
+}
+.dialog-citylist .guess a, .dialog-citylist .guess span {
+    font-size: 14px;
+    line-height: 28px;
+}
+.borderradius-2 {
+    border-radius: 2px;
+}
+.fl {
+    float: left;
+}
+
+.sprt-line {
+    border-right: 1px solid #e5e5e5;
+    float: left;
+    height: 28px;
+    margin-right: 25px;
+    margin-top: 10px;
+    width: 0;
+}
+
+
+.dialog-citylist .search-city {
+    display: inline-block;
+    margin-top: 10px;
+    padding-bottom: 14px;
+    position: relative;
+    z-index: 99;
+}
+.ct-deepgrey {
+    color: #535353;
+}
+
+
+.dialog-citylist .search-city input {
+    border: 1px solid #dcdcdc;
+    color: #a9a9a9;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    padding: 5px 0 5px 5px;
+    width: 210px;
+}
+.fl {
+    float: left;
+}
+input, textarea {
+    border: 1px solid #c6c6c6;
+    padding: 3px;
+}
+body, button, dd, dl, dt, form, h1, h2, h3, h4, h5, h6, html, input, ol, p, select, textarea, ul {
+    margin: 0;
+}
+input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+
+
+.dialog-citylist #city-content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: -moz-use-text-color #dcdcdc #dcdcdc;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    display: none;
+    left: 66px;
+    position: absolute;
+    top: 30px;
+    width: 178px;
+}
+.dialog-citylist .first-field {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.dialog-citylist .field ul {
+    margin-left: 70px;
+}
+
+
+.dialog-citylist .field li {
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-right: 10px;
+    width: 74px;
+}
+
+
+.jspVerticalBar {
+    border-left: 1px solid #dedede;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 18px;
+}
+.jspHorizontalBar, .jspPane, .jspVerticalBar {
+    position: absolute;
+}
+
+
+.jspVerticalBar {
+    border-left: 1px solid #dedede;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 18px;
+}
+.jspHorizontalBar, .jspPane, .jspVerticalBar {
+    position: absolute;
+}
+
+
+element.style {
+    height: 411px;
+}
+.jspTrack {
+    background: #fff none repeat scroll 0 0;
+}
+.jspDrag, .jspTrack, .top-wrap {
+    position: relative;
+}
+
+element.style {
+    height: 19px;
+}
+.jspDrag {
+    background: #d8d8d8 none repeat scroll 0 0;
+    border-radius: 2px;
+    cursor: pointer;
+    left: 5px;
+    top: 0;
+    width: 8px;
+}
+
+
+.jspCap {
+    display: none;
+}
+
+.citylist{
+	z-index: 10000;
+}

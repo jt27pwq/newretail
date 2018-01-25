@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:#999;
+}
+
+a:visited{
+    color:#999;
+}
+
+a:hover{
+    color: #FD8238;
+}
+
+a:active{
+    color:#999;
+}
+#nav_top{
+    width: 100%;
+    height: 60px;
+    background-color: #5264CC;
+}
+.top_search{
+    width: 1190px;
+    height: 60px;
+    margin: auto;
+}
+.top_text{
+    font-size: 18px;
+}
+.top_right{
+    width: 450px;
+    height: 18px;
+    padding-top: 25px;
+    float: right;
+    font-size: 12px;
+}
+.top_right a{
+    color: white;
+}
+#nav_search{
+    width: 100%;
+    height: 600px;
+}
+.nav_search_input {
+    width: 320px;
+    height: 380px;
+    margin-bottom: 0;
+    margin-left: 788px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+}
+
+.nav_backgroud{
+    background:url("../image/20.jpg");
+    width: 1910px;
+    height: 600px;
+    margin: auto;
+}
+.tell{
+    width: 318px;
+    height: 38px;
+    border: 1px solid #E1E1E1;
+}
+.possword{
+    width: 318px;
+    height: 38px;
+    margin-top: 20px;
+    border: 1px solid #E1E1E1;
+}
+.auth{
+    width: 320px;
+    height: 43px;
+    margin-top: 20px;
+}
+.auth_img{
+    width: 130px;
+    height: 41px;
+    margin-left: 22px;
+    float: left;
+    border: 1px solid #E1E1E1;
+}
+.inco{
+    width: 320px;
+    height: 60px;
+    margin-top: 20px;
+}
+#nav_bottom{
+    width: 1190px;
+    height: 259px;
+    margin: auto;
+    margin-top: 40px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.nav_bottom_left{
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+.nav_bottom_right{
+    width: 390px;
+    height: 200px;
+    float: right;
+}
+.bottom_text{
+    margin: auto;
+    margin-top: 20px;
+    color: #666666;
+}
+

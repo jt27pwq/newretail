@@ -1,0 +1,162 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:#999;
+}
+
+a:visited{
+    color:#999;
+}
+
+a:hover{
+    color: #FD8238;
+}
+
+a:active{
+    color:#999;
+}
+#backdrop{
+    position: relative;
+    width: 1970px;
+    height: 900px;
+    margin: auto;
+}
+/*#backIma{*/
+    /*width: 1970px;*/
+    /*height: 900px;*/
+    /*margin: auto;*/
+    /*background: url(../image/12.jpg);*/
+/*}*/
+#nav{
+    position: absolute;
+    width: 1190px;
+    height: 755px;
+    margin-left: 37%;
+    margin-top: -880px;
+
+}
+.nav_top{
+    color: white;
+    width: 1190px;
+    height: 62px;
+    margin: auto;
+}
+.nav_register{
+    width: 1190px;
+    height: 120px;
+    margin: auto;
+}
+.logo{
+    width: 292px;
+    height: 114px;
+    margin: auto;
+}
+.nav_bottom{
+    width: 680px;
+    height: 482px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin-top: 30px;
+    background-color: black;
+    background: rgba(0,0,0,0.6);
+}
+.nav_bottom_in{
+    width: 680px;
+    height: 477px;
+}
+.member{
+    width: 680px;
+    height: 27px;
+}
+.member_register{
+    width: 680px;
+    height: 424px;
+    margin-top: 26px;
+}
+#auth{
+    width: 680px;
+    height: 40px;
+    margin-top: 15px;
+}
+.auth_input{
+    padding-top: 0px;
+    width: 340px;
+    height: 40px;
+}
+#cell{
+    width: 680px;
+    height: 40px;
+    margin-top: 15px;
+}
+#possword{
+    width: 680px;
+    height: 40px;
+    margin-top: 15px;
+}
+#invitation{
+    width: 680px;
+    height: 40px;
+    margin-top: 15px;
+}
+#email{
+    width: 680px;
+    height: 40px;
+    margin-top: 15px;
+}
+#protocol{
+    width: 680px;
+    height: 18px;
+    margin-top: 15px;
+}
+#rgst{
+  margin-top: 15px;
+
+}
+.nav_bottom{
+    position: relative;
+}
+#nav_memeber{
+    float: left;
+}
+
+#dowload{
+    position: absolute;
+    float: left;
+    margin-left: 380px;
+}
+#subscript{
+    width: 100%;
+    height: 157px;
+    margin-top: 15px;
+}
+.subscript_top{
+    width:400px;
+    height: 24px;
+    margin: auto;
+}
+.subscript_bottom{
+    width: 740px;
+    height: 117px;
+    margin: auto;
+    margin-top: 20px;
+}
+.icon{
+    width: 440px;
+    height: 47px;
+    margin: auto;
+    margin-top: 20px;
+}
